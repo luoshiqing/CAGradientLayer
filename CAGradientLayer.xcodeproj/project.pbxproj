@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6357B191DEC0E0500D0339A /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6357B181DEC0E0500D0339A /* PickerViewController.swift */; };
 		D6A78BA11DE7D0FB009F41C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BA01DE7D0FB009F41C6 /* AppDelegate.swift */; };
 		D6A78BA31DE7D0FB009F41C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BA21DE7D0FB009F41C6 /* ViewController.swift */; };
 		D6A78BA61DE7D0FB009F41C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A78BA41DE7D0FB009F41C6 /* Main.storyboard */; };
 		D6A78BA81DE7D0FB009F41C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6A78BA71DE7D0FB009F41C6 /* Assets.xcassets */; };
 		D6A78BAB1DE7D0FB009F41C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6A78BA91DE7D0FB009F41C6 /* LaunchScreen.storyboard */; };
+		D6A78BB51DE7D8D9009F41C6 /* tmBack@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A78BB31DE7D8D9009F41C6 /* tmBack@2x.png */; };
+		D6A78BB61DE7D8D9009F41C6 /* tmBack@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D6A78BB41DE7D8D9009F41C6 /* tmBack@3x.png */; };
+		D6A78BB91DE7D8E4009F41C6 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BB71DE7D8E4009F41C6 /* BaseNavigationController.swift */; };
+		D6A78BBA1DE7D8E4009F41C6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BB81DE7D8E4009F41C6 /* BaseViewController.swift */; };
+		D6A78BBD1DE7D90A009F41C6 /* NetWork.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BBC1DE7D90A009F41C6 /* NetWork.swift */; };
+		D6A78BBF1DE7D961009F41C6 /* RootTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BBE1DE7D961009F41C6 /* RootTableViewController.swift */; };
+		D6A78BC31DE7DF62009F41C6 /* RingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BC21DE7DF62009F41C6 /* RingViewController.swift */; };
+		D6A78BC51DE7DF83009F41C6 /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BC41DE7DF83009F41C6 /* RingView.swift */; };
+		D6A78BC81DE835C3009F41C6 /* HeartFlyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BC71DE835C3009F41C6 /* HeartFlyViewController.swift */; };
+		D6A78BCA1DE841BC009F41C6 /* FlyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6A78BC91DE841BC009F41C6 /* FlyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D6357B181DEC0E0500D0339A /* PickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		D6A78B9D1DE7D0FB009F41C6 /* CAGradientLayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAGradientLayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6A78BA01DE7D0FB009F41C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6A78BA21DE7D0FB009F41C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,16 @@
 		D6A78BA71DE7D0FB009F41C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D6A78BAA1DE7D0FB009F41C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D6A78BAC1DE7D0FB009F41C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6A78BB31DE7D8D9009F41C6 /* tmBack@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmBack@2x.png"; sourceTree = "<group>"; };
+		D6A78BB41DE7D8D9009F41C6 /* tmBack@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tmBack@3x.png"; sourceTree = "<group>"; };
+		D6A78BB71DE7D8E4009F41C6 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		D6A78BB81DE7D8E4009F41C6 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D6A78BBC1DE7D90A009F41C6 /* NetWork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetWork.swift; sourceTree = "<group>"; };
+		D6A78BBE1DE7D961009F41C6 /* RootTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootTableViewController.swift; sourceTree = "<group>"; };
+		D6A78BC21DE7DF62009F41C6 /* RingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingViewController.swift; sourceTree = "<group>"; };
+		D6A78BC41DE7DF83009F41C6 /* RingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		D6A78BC71DE835C3009F41C6 /* HeartFlyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeartFlyViewController.swift; sourceTree = "<group>"; };
+		D6A78BC91DE841BC009F41C6 /* FlyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +76,49 @@
 		D6A78B9F1DE7D0FB009F41C6 /* CAGradientLayer */ = {
 			isa = PBXGroup;
 			children = (
+				D6A78BBB1DE7D8EA009F41C6 /* Base */,
+				D6A78BB21DE7D8CD009F41C6 /* img */,
+				D6A78BC61DE83505009F41C6 /* demos */,
 				D6A78BA01DE7D0FB009F41C6 /* AppDelegate.swift */,
-				D6A78BA21DE7D0FB009F41C6 /* ViewController.swift */,
+				D6A78BBC1DE7D90A009F41C6 /* NetWork.swift */,
+				D6A78BBE1DE7D961009F41C6 /* RootTableViewController.swift */,
 				D6A78BA41DE7D0FB009F41C6 /* Main.storyboard */,
 				D6A78BA71DE7D0FB009F41C6 /* Assets.xcassets */,
 				D6A78BA91DE7D0FB009F41C6 /* LaunchScreen.storyboard */,
 				D6A78BAC1DE7D0FB009F41C6 /* Info.plist */,
 			);
 			path = CAGradientLayer;
+			sourceTree = "<group>";
+		};
+		D6A78BB21DE7D8CD009F41C6 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				D6A78BB31DE7D8D9009F41C6 /* tmBack@2x.png */,
+				D6A78BB41DE7D8D9009F41C6 /* tmBack@3x.png */,
+			);
+			name = img;
+			sourceTree = "<group>";
+		};
+		D6A78BBB1DE7D8EA009F41C6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D6A78BB71DE7D8E4009F41C6 /* BaseNavigationController.swift */,
+				D6A78BB81DE7D8E4009F41C6 /* BaseViewController.swift */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		D6A78BC61DE83505009F41C6 /* demos */ = {
+			isa = PBXGroup;
+			children = (
+				D6A78BA21DE7D0FB009F41C6 /* ViewController.swift */,
+				D6A78BC21DE7DF62009F41C6 /* RingViewController.swift */,
+				D6A78BC41DE7DF83009F41C6 /* RingView.swift */,
+				D6A78BC71DE835C3009F41C6 /* HeartFlyViewController.swift */,
+				D6A78BC91DE841BC009F41C6 /* FlyView.swift */,
+				D6357B181DEC0E0500D0339A /* PickerViewController.swift */,
+			);
+			name = demos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +181,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A78BB51DE7D8D9009F41C6 /* tmBack@2x.png in Resources */,
+				D6A78BB61DE7D8D9009F41C6 /* tmBack@3x.png in Resources */,
 				D6A78BAB1DE7D0FB009F41C6 /* LaunchScreen.storyboard in Resources */,
 				D6A78BA81DE7D0FB009F41C6 /* Assets.xcassets in Resources */,
 				D6A78BA61DE7D0FB009F41C6 /* Main.storyboard in Resources */,
@@ -138,7 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6A78BA31DE7D0FB009F41C6 /* ViewController.swift in Sources */,
+				D6A78BBF1DE7D961009F41C6 /* RootTableViewController.swift in Sources */,
+				D6A78BC31DE7DF62009F41C6 /* RingViewController.swift in Sources */,
+				D6A78BC51DE7DF83009F41C6 /* RingView.swift in Sources */,
+				D6A78BBA1DE7D8E4009F41C6 /* BaseViewController.swift in Sources */,
 				D6A78BA11DE7D0FB009F41C6 /* AppDelegate.swift in Sources */,
+				D6A78BCA1DE841BC009F41C6 /* FlyView.swift in Sources */,
+				D6357B191DEC0E0500D0339A /* PickerViewController.swift in Sources */,
+				D6A78BC81DE835C3009F41C6 /* HeartFlyViewController.swift in Sources */,
+				D6A78BB91DE7D8E4009F41C6 /* BaseNavigationController.swift in Sources */,
+				D6A78BBD1DE7D90A009F41C6 /* NetWork.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +329,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = CAGradientLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.CAGradientLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +343,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NP7D9SC777;
 				INFOPLIST_FILE = CAGradientLayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sql.CAGradientLayer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +370,7 @@
 				D6A78BB11DE7D0FB009F41C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
